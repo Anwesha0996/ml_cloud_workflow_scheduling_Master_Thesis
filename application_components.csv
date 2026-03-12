@@ -1,0 +1,6 @@
+component,cpu_request,memory_request,latency_sensitivity,description
+A_preprocessing,2,1024,0.3,Input data preprocessing
+B_inference,6,4096,0.9,ML inference stage
+C_postprocessing,3,2048,0.6,Result aggregation and formatting
+D_storage,2,1536,0.2,Database / persistent storage
+E_api_gateway,1,512,0.7,External API / client interface

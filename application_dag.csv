@@ -1,0 +1,5 @@
+src,dst
+A_preprocessing,B_inference
+B_inference,C_postprocessing
+C_postprocessing,D_storage
+C_postprocessing,E_api_gateway
