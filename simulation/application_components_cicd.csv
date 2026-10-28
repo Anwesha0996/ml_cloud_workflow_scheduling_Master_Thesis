@@ -1,0 +1,10 @@
+component,cpu_request,memory_request,latency_sensitivity,description
+source_fetch,2,1024,0.3,Fetch source code from repository
+build,5,3072,0.4,Compile and build application
+unit_test,4,2048,0.4,Execute unit tests
+integration_test,5,3072,0.5,Execute integration tests
+static_analysis,3,2048,0.3,Run code quality and security checks
+image_build,4,3072,0.5,Build container image
+registry_push,2,1024,0.7,Push image to container registry
+deployment,3,2048,0.8,Deploy application to Kubernetes cluster
+verification,2,1024,0.7,Verify deployment health and status

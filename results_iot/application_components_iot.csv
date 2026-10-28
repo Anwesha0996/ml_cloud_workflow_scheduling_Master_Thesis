@@ -1,0 +1,10 @@
+component,cpu_request,memory_request,latency_sensitivity,description
+sensor_collector,2,1024,0.4,Collect telemetry from IoT sensors
+message_broker,3,2048,0.6,Buffer and distribute sensor messages
+data_cleaning,3,1536,0.5,Remove missing or corrupt sensor values
+feature_extraction,4,2048,0.6,Generate features from sensor data
+prediction_model,6,3072,0.8,Run anomaly or prediction model
+rule_engine,3,1536,0.7,Apply decision rules on model output
+database_cloud_storage,2,2048,0.3,Store processed data in cloud database
+dashboard,1,1024,0.7,Visualize sensor and analytics results
+alert,1,512,0.8,Generate alert for abnormal conditions

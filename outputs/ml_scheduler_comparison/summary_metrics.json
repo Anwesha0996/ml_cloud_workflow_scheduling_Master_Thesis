@@ -1,0 +1,160 @@
+{
+  "comparison_possible": true,
+  "evaluation_type": "true simulation-based comparison",
+  "random_state": 42,
+  "scenario_count": 300,
+  "mean_regular_actual_time": 302.48366721438254,
+  "mean_ml_selected_actual_time": 302.8249652098248,
+  "mean_percent_improvement": -0.9337175690564767,
+  "median_percent_improvement": 0.0,
+  "ml_win_count": 142,
+  "regular_scheduler_win_count": 125,
+  "tie_count": 33,
+  "ml_win_rate_percent": 47.333333333333336,
+  "by_workload_type": [
+    {
+      "workload_type": "data_intensive",
+      "scenario_count": 75,
+      "mean_regular_actual_time": 348.04767685041503,
+      "mean_ml_selected_actual_time": 352.1098823153407,
+      "mean_percent_improvement": -1.626075055187628,
+      "ml_win_count": 36,
+      "regular_win_count": 31,
+      "tie_count": 8
+    },
+    {
+      "workload_type": "heavy",
+      "scenario_count": 75,
+      "mean_regular_actual_time": 355.0407185377488,
+      "mean_ml_selected_actual_time": 349.4969817413364,
+      "mean_percent_improvement": 0.4051865418446174,
+      "ml_win_count": 39,
+      "regular_win_count": 29,
+      "tie_count": 7
+    },
+    {
+      "workload_type": "light",
+      "scenario_count": 75,
+      "mean_regular_actual_time": 185.81472036139218,
+      "mean_ml_selected_actual_time": 181.0628290816218,
+      "mean_percent_improvement": 1.3880288669489584,
+      "ml_win_count": 42,
+      "regular_win_count": 28,
+      "tie_count": 5
+    },
+    {
+      "workload_type": "mixed",
+      "scenario_count": 75,
+      "mean_regular_actual_time": 321.03155310797393,
+      "mean_ml_selected_actual_time": 328.63016770100023,
+      "mean_percent_improvement": -3.9020106298318553,
+      "ml_win_count": 25,
+      "regular_win_count": 37,
+      "tie_count": 13
+    }
+  ],
+  "by_node_count": [
+    {
+      "node_count": 15,
+      "scenario_count": 60,
+      "mean_regular_actual_time": 267.30860646696897,
+      "mean_ml_selected_actual_time": 265.1319060624333,
+      "mean_percent_improvement": -1.0591340095115787,
+      "ml_win_count": 25,
+      "regular_win_count": 21,
+      "tie_count": 14
+    },
+    {
+      "node_count": 30,
+      "scenario_count": 60,
+      "mean_regular_actual_time": 267.5438931358351,
+      "mean_ml_selected_actual_time": 269.0932490929006,
+      "mean_percent_improvement": -0.6346629375650945,
+      "ml_win_count": 32,
+      "regular_win_count": 24,
+      "tie_count": 4
+    },
+    {
+      "node_count": 60,
+      "scenario_count": 60,
+      "mean_regular_actual_time": 271.45780470544855,
+      "mean_ml_selected_actual_time": 270.70114933346235,
+      "mean_percent_improvement": -0.5729272901887392,
+      "ml_win_count": 29,
+      "regular_win_count": 28,
+      "tie_count": 3
+    },
+    {
+      "node_count": 120,
+      "scenario_count": 60,
+      "mean_regular_actual_time": 299.48193495052766,
+      "mean_ml_selected_actual_time": 297.3720606250999,
+      "mean_percent_improvement": -0.5780053481982221,
+      "ml_win_count": 27,
+      "regular_win_count": 30,
+      "tie_count": 3
+    },
+    {
+      "node_count": 250,
+      "scenario_count": 60,
+      "mean_regular_actual_time": 406.6260968131322,
+      "mean_ml_selected_actual_time": 411.82646093522806,
+      "mean_percent_improvement": -1.8238582598187492,
+      "ml_win_count": 29,
+      "regular_win_count": 22,
+      "tie_count": 9
+    }
+  ],
+  "by_environment_condition": [
+    {
+      "environment_condition": "fast_network",
+      "scenario_count": 60,
+      "mean_regular_actual_time": 273.16169369647935,
+      "mean_ml_selected_actual_time": 276.7119490950293,
+      "mean_percent_improvement": -2.2909990479745215,
+      "ml_win_count": 24,
+      "regular_win_count": 29,
+      "tie_count": 7
+    },
+    {
+      "environment_condition": "heavy_memory_use",
+      "scenario_count": 60,
+      "mean_regular_actual_time": 357.98614332681734,
+      "mean_ml_selected_actual_time": 358.3938922878606,
+      "mean_percent_improvement": -0.47298762432371844,
+      "ml_win_count": 28,
+      "regular_win_count": 23,
+      "tie_count": 9
+    },
+    {
+      "environment_condition": "light_memory_use",
+      "scenario_count": 60,
+      "mean_regular_actual_time": 267.57177495844815,
+      "mean_ml_selected_actual_time": 267.8375785613391,
+      "mean_percent_improvement": -0.760527613302144,
+      "ml_win_count": 30,
+      "regular_win_count": 24,
+      "tie_count": 6
+    },
+    {
+      "environment_condition": "normal",
+      "scenario_count": 60,
+      "mean_regular_actual_time": 288.6923794666633,
+      "mean_ml_selected_actual_time": 284.762798559292,
+      "mean_percent_improvement": -0.3755930270935096,
+      "ml_win_count": 30,
+      "regular_win_count": 26,
+      "tie_count": 4
+    },
+    {
+      "environment_condition": "slow_network",
+      "scenario_count": 60,
+      "mean_regular_actual_time": 325.0063446235044,
+      "mean_ml_selected_actual_time": 326.41860754560315,
+      "mean_percent_improvement": -0.7684805325884901,
+      "ml_win_count": 30,
+      "regular_win_count": 23,
+      "tie_count": 7
+    }
+  ]
+}

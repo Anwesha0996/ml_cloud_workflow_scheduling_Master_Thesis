@@ -1,0 +1,4 @@
+scenario_id,workflow_type,workload_type,environment_condition,node_count,regular_actual_time,ml_predicted_time_for_selected_candidate,ml_selected_actual_time,absolute_improvement,percent_improvement,winner,number_of_candidates,workflow_median_percent_improvement
+video-heavy-heavy_memory_use-nodes60-rep0,video,heavy,heavy_memory_use,60,355.68199868033133,424.4458900171105,348.28985694152544,7.39214173880589,2.0783007760394323,ml,100,2.1840288298409973
+iot-light-heavy_memory_use-nodes30-rep0,iot,light,heavy_memory_use,30,180.91599098296652,205.85117147013543,181.3967009004928,-0.48070991752626924,-0.2657089154554219,regular,100,-0.2950478887771924
+cicd-data_intensive-fast_network-nodes15-rep0,cicd,data_intensive,fast_network,15,321.4183469601388,451.99639920606666,321.4183469601388,0.0,0.0,tie,100,0.0

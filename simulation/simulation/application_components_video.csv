@@ -1,0 +1,9 @@
+component,cpu_request,memory_request,latency_sensitivity,description
+take_video,2,1024,0.4,Receive live video stream from camera
+frame_extraction,3,2048,0.5,Extract frames from video stream
+preprocessing,4,2048,0.6,"Resize, normalize, and clean image frames"
+find_objects,8,4096,0.9,Run object detection model on frames
+follow_objects,4,2048,0.8,Track detected objects across frames
+check_what_happens,3,2048,0.7,Analyze events such as congestion or accidents
+store_data,2,1536,0.2,Store processed results in database
+notify,1,512,0.8,Send alerts or notifications

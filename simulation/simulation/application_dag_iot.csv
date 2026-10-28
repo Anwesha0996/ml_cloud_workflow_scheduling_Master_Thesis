@@ -1,0 +1,9 @@
+src,dst
+sensor_collector,message_broker
+message_broker,data_cleaning
+data_cleaning,feature_extraction
+feature_extraction,prediction_model
+prediction_model,rule_engine
+rule_engine,database_cloud_storage
+database_cloud_storage,dashboard
+database_cloud_storage,alert

@@ -1,0 +1,10 @@
+case_type,scenario_id,workflow_type,workload_type,environment_condition,node_count,regular_actual_time,ml_predicted_time_for_selected_candidate,ml_selected_actual_time,absolute_improvement,percent_improvement,winner,number_of_candidates
+best_ml,video-light-fast_network-nodes120-rep0,video,light,fast_network,120,190.39692425879556,191.6064479385196,112.03303290828842,78.36389135050715,41.158170834730306,ml,100
+worst_ml,video-mixed-heavy_memory_use-nodes30-rep0,video,mixed,heavy_memory_use,30,247.07461973225617,471.5276270337697,381.7778431136758,-134.7032233814196,-54.51924747567821,regular,100
+tie_or_nearest_zero,video-heavy-heavy_memory_use-nodes30-rep0,video,heavy,heavy_memory_use,30,287.8682186394897,388.3802645025722,287.8682186394897,0.0,0.0,tie,100
+best_ml,iot-heavy-normal-nodes250-rep0,iot,heavy,normal,250,526.7105572993531,394.29509404119335,283.38844795156274,243.3221093477904,46.19655064356334,ml,100
+worst_ml,iot-light-light_memory_use-nodes15-rep0,iot,light,light_memory_use,15,111.42013888673029,205.85117147013543,161.8210466699373,-50.400907783207,-45.235007142151,regular,100
+tie_or_nearest_zero,iot-data_intensive-heavy_memory_use-nodes30-rep0,iot,data_intensive,heavy_memory_use,30,404.3770890913921,438.4168251663541,404.3770890913921,0.0,0.0,tie,100
+best_ml,cicd-heavy-fast_network-nodes120-rep0,cicd,heavy,fast_network,120,391.012983927936,464.00621646763466,283.11425852510723,107.89872540282875,27.59466560903629,ml,100
+worst_ml,cicd-data_intensive-fast_network-nodes250-rep0,cicd,data_intensive,fast_network,250,410.8058018585552,451.9963992060665,652.603064169221,-241.79726231066587,-58.85926177691113,regular,100
+tie_or_nearest_zero,cicd-data_intensive-fast_network-nodes15-rep0,cicd,data_intensive,fast_network,15,321.4183469601388,451.99639920606666,321.4183469601388,0.0,0.0,tie,100

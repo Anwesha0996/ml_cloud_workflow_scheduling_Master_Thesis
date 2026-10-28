@@ -1,0 +1,108 @@
+{
+  "validation_type": "random row split; scenario/source-file grouping not applied",
+  "random_state": 42,
+  "test_size": 0.2,
+  "sla_percentile": 30,
+  "train_rows": 348000,
+  "validation_rows": 87000,
+  "features_used": [
+    "workflow_type",
+    "node_count",
+    "workload_type",
+    "environment_condition",
+    "communication_scale",
+    "memory_scale",
+    "num_tasks",
+    "num_edges",
+    "dag_depth",
+    "distinct_nodes_used",
+    "dag_crossings",
+    "colocated_edges",
+    "avg_node_cost",
+    "max_node_cost"
+  ],
+  "numeric_features": [
+    "node_count",
+    "communication_scale",
+    "memory_scale",
+    "num_tasks",
+    "num_edges",
+    "dag_depth",
+    "distinct_nodes_used",
+    "dag_crossings",
+    "colocated_edges",
+    "avg_node_cost",
+    "max_node_cost"
+  ],
+  "categorical_features": [
+    "workflow_type",
+    "workload_type",
+    "environment_condition"
+  ],
+  "excluded_leakage_columns": [
+    "workflow_time",
+    "processing_time",
+    "communication_delay",
+    "memory_use",
+    "communication_fraction",
+    "sla_ok",
+    "predicted_workflow_time",
+    "predicted_sla_ok"
+  ],
+  "sla_thresholds_by_workflow": {
+    "cicd": 407.7269373608499,
+    "iot": 348.4568149982394,
+    "video": 356.6885531173748
+  },
+  "global_sla_threshold": 256.8645876412487,
+  "regression": {
+    "mae": 40.3219527264767,
+    "rmse": 53.075283750458986,
+    "r2": 0.8443688504660598,
+    "mean_actual_workflow_time": 348.5008961331407,
+    "mean_predicted_workflow_time": 348.33916449888375
+  },
+  "classification": {
+    "accuracy": 0.8219885057471265,
+    "precision": 0.8498793242156074,
+    "recall": 0.7621750318655155,
+    "f1_score": 0.8036413891037263,
+    "sla_violation_recall": 0.8767476166362095,
+    "confusion_matrix": [
+      [
+        39821,
+        5598
+      ],
+      [
+        9889,
+        31692
+      ]
+    ],
+    "positive_samples": 41581,
+    "negative_samples": 45419
+  },
+  "prediction_distribution": {
+    "actual_workflow_time": {
+      "mean": 348.5008961331407,
+      "median": 372.1288651613189,
+      "std": 134.53849276853418,
+      "min": 54.37828502682023,
+      "max": 864.1769534846779,
+      "percentile_25": 220.17364429216929,
+      "percentile_75": 445.0424711324165
+    },
+    "predicted_workflow_time": {
+      "mean": 348.33916449888375,
+      "median": 394.36138725942476,
+      "std": 123.18110646610093,
+      "min": 94.22328038838319,
+      "max": 585.8837329688749,
+      "percentile_25": 211.7796826607311,
+      "percentile_75": 437.1086753378658
+    },
+    "mean_error": -0.16173163425696657,
+    "median_error": 22.232522098105846,
+    "mean_percent_error": -0.04640781015242465,
+    "median_percent_error": 5.974414827634504
+  }
+}

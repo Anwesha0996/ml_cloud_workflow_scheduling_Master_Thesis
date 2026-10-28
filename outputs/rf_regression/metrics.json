@@ -1,0 +1,36 @@
+{
+  "split_strategy": "grouped 80/20 split by source_file",
+  "random_state": 42,
+  "total_input_rows": 435000,
+  "complete_rows": 276000,
+  "rows_dropped": 159000,
+  "duplicate_rows": 216000,
+  "train_rows": 219000,
+  "test_rows": 57000,
+  "train_groups": 73,
+  "test_groups": 19,
+  "group_overlap": 0,
+  "feature_count": 12,
+  "features": [
+    "workflow_type",
+    "workload_type",
+    "environment_condition",
+    "node_count",
+    "communication_scale",
+    "memory_scale",
+    "num_tasks",
+    "num_edges",
+    "dag_depth",
+    "distinct_nodes_used",
+    "dag_crossings",
+    "colocated_edges"
+  ],
+  "excluded_features": [
+    "avg_node_cost",
+    "max_node_cost"
+  ],
+  "target": "workflow_time",
+  "mae": 45.35705949727986,
+  "rmse": 58.4865260999497,
+  "r2": 0.45609673986104027
+}

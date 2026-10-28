@@ -1,0 +1,9 @@
+src,dst
+source_fetch,build
+build,unit_test
+unit_test,integration_test
+integration_test,static_analysis
+static_analysis,image_build
+image_build,registry_push
+registry_push,deployment
+deployment,verification
