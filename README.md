@@ -184,4 +184,4 @@ The [validation report](outputs/ml_validation/rf_validation_report.md) records r
 
 **Anwesha Ghosh**
 MSc Information and Communication Engineering
-TU Dresden / AAU Klagenfurt
+AAU Klagenfurt / Tu Dresden
