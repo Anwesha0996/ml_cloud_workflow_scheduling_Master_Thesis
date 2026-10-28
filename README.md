@@ -8,7 +8,7 @@ ML-based Network and Resource-Aware Scheduling of Dockerized Applications on Kub
 Status:
 Work in Progress (Master’s Thesis)
 
-Expected completion: June 2026
+
 
 ## Project Overview
 
